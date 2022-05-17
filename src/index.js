@@ -1,4 +1,5 @@
 import React from 'react';
+import CategoryName from './components/CategoryName';
 import { render } from 'react-dom';
 import {
   ApolloClient,
@@ -16,6 +17,7 @@ const client = new ApolloClient({
 render(
   <ApolloProvider client={client}>
     <Categories />
+    <CategoryName />
     <AllProducts />
   </ApolloProvider>,
   document.getElementById('root'),

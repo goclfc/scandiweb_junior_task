@@ -1,0 +1,85 @@
+.categories-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+.categories-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 234px;
+  height: 56px;
+  left: 101px;
+  bottom: 0px;
+}
+.categories-item {
+  width: 65px;
+  height: 20px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* identical to box height, or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header-logo {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 699px;
+    top: calc(50% - 41px/2 + 4.5px);
+
+}
+.header-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 22px;
+
+  position: absolute;
+  width: 204px;
+  height: 40px;
+  right: 101px;
+  top: 23px;
+}
+.category-name {
+    position: absolute;
+    width: 299px;
+    height: 68px;
+    left: 120px;
+    top:100px;
+    /* Heading / Desktop / H2 */
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 160%;
+    /* identical to box height, or 67px */
+    
+    display: flex;
+    align-items: center;
+    
+    /* --c-text */
+    
+    color: #1D1F22;
+}
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    margin-left: 120px;
+}

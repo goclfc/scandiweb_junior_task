@@ -18,12 +18,7 @@ function AllProducts() {
   if (error) return <p>Error :(</p>;
     console.log(data.categories[0].products)
   return (
-    <ul style={{
-      display:'flex',
-      flexWrap:"wrap",
-      margin:"150px"
-      
-    }}>
+    <div className="products-wrapper">
       {data.categories[0].products.map((products,i) => (
         
         <ProductCard 
@@ -33,7 +28,7 @@ function AllProducts() {
           />
        
       ))}
-    </ul>
+    </div>
   );
 }
 export default AllProducts;
