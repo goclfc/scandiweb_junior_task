@@ -1,0 +1,77 @@
+.card_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin:20px;
+    
+    /* shadow */
+    
+    filter: drop-shadow(0px 4px 35px rgba(168, 172, 176, 0.19));
+}
+.img_wrapper img{
+    
+    width: 354px;
+    height: 330px;  
+    /* Inside auto layout */
+}
+.about_wrapper {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 354px;
+height: 58px;
+}
+.card_about {
+    width: 354px;
+    height: 29px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: center;
+
+    /* --c-black */
+
+    color: #1D1F22;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.card_price {
+    width: 58px;
+    height: 29px;
+
+    /* --price-regular-font */
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+    text-align: right;
+
+    /* --c-black */
+
+    color: #1D1F22;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
